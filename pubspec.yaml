@@ -49,9 +49,10 @@ dependencies:
   dio_log: ^2.0.2
   fluttertoast: ^8.0.8
   permission_handler: ^8.3.0
+  swipebuttonflutter: ^1.0.0
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
+
+
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -80,6 +81,9 @@ flutter:
    - images/fruit_grab_juse.jpg
    - images/grapes.png
    - images/gallery.png
+   - images/started page.png
+   - images/leaf.png
+   - images/apple.png
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
