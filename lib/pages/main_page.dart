@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'package:flutter/painting.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:flutter/cupertino.dart';
@@ -112,9 +113,10 @@ class _MainPageState extends State<MainPage> {
         SingleChildScrollView(
           child: Column(
           children: <Widget>[
-          Padding(
-          padding: const EdgeInsets.only(top: 10),
-          child: Container(
+          //Padding(
+         // padding: const EdgeInsets.only(top: 10),
+         // child:
+          Container(
           margin: EdgeInsets.all(5),
           decoration: BoxDecoration(
           color: Colors.lightGreen,
@@ -141,7 +143,8 @@ class _MainPageState extends State<MainPage> {
           ),
           ),
           const Padding(
-          padding: EdgeInsets.only(left: 20, right: 46),
+            padding: EdgeInsets.all(5),
+          //padding: EdgeInsets.only(left: 20, right: 46),
           child: Text(
           'image 1',
           style: TextStyle(
@@ -210,11 +213,12 @@ class _MainPageState extends State<MainPage> {
           )
           ],
           ),
+          //), // the padding comment
           ),
-          ),
-          Padding(
-          padding: const EdgeInsets.only(top: 10),
-          child: Container(
+          //Padding(
+         //padding: const EdgeInsets.only(top: 10),
+          //child:
+          Container(
           margin: EdgeInsets.all(10),
           decoration: BoxDecoration(
           color: Colors.lightGreen,
@@ -241,7 +245,8 @@ class _MainPageState extends State<MainPage> {
           ),
           ),
           const Padding(
-          padding: EdgeInsets.only(left: 20, right: 46),
+            padding: EdgeInsets.all(5),
+          //padding: EdgeInsets.only(left: 20, right: 46),
           child: Text(
           'image 2',
           style: TextStyle(
@@ -309,11 +314,12 @@ class _MainPageState extends State<MainPage> {
           )
           ],
           ),
+          //), second padding comment
           ),
-          ),
-          Padding(
-          padding: const EdgeInsets.only(top: 10),
-          child: Container(
+          //Padding(
+          //padding: const EdgeInsets.only(top: 10),
+          //child:
+          Container(
           margin: const EdgeInsets.all(10),
           decoration: BoxDecoration(
           color: Colors.lightGreen,
@@ -340,7 +346,8 @@ class _MainPageState extends State<MainPage> {
           ),
           ),
           const Padding(
-          padding: EdgeInsets.only(left: 20, right: 46),
+            padding: EdgeInsets.all(5),
+          //padding: EdgeInsets.only(left: 20, right: 5),
           child: Text(
           'image 3',
           style: TextStyle(
@@ -408,11 +415,12 @@ class _MainPageState extends State<MainPage> {
           )
           ],
           ),
+          //), third padding comment
           ),
-          ),
-          Padding(
-          padding: const EdgeInsets.only(top: 10),
-          child: Container(
+          //Padding(
+          //padding: const EdgeInsets.only(top: 10),
+          //child:
+          Container(
           margin: const EdgeInsets.all(10),
           decoration: BoxDecoration(
           color: Colors.lightGreen,
@@ -439,7 +447,8 @@ class _MainPageState extends State<MainPage> {
           ),
           ),
           const Padding(
-          padding: EdgeInsets.only(left: 20, right: 46),
+            padding: EdgeInsets.all(5),
+          //padding: EdgeInsets.only(left: 20, right: 46),
           child: Text(
           'image 4',
           style: TextStyle(
@@ -507,11 +516,12 @@ class _MainPageState extends State<MainPage> {
           )
           ],
           ),
+          //), fourt padding comment
           ),
-          ),
-          Padding(
-          padding: const EdgeInsets.only(top: 10),
-          child: Container(
+          //Padding(
+          //padding: const EdgeInsets.only(top: 10),
+          //child:
+          Container(
           margin: const EdgeInsets.all(10),
           decoration: BoxDecoration(
           color: Colors.lightGreen,
@@ -538,7 +548,8 @@ class _MainPageState extends State<MainPage> {
           ),
           ),
           const Padding(
-          padding: EdgeInsets.only(left: 20, right: 46),
+            padding: EdgeInsets.all(5),
+          //padding: EdgeInsets.only(left: 20, right: 46),
           child: Text(
           'image 5',
           style: TextStyle(
@@ -606,7 +617,7 @@ class _MainPageState extends State<MainPage> {
           )
           ],
           ),
-          ),
+          //), fifth padding comment
           ),
           const SizedBox(
           height: 15,
@@ -625,7 +636,7 @@ class _MainPageState extends State<MainPage> {
                   bottomRight: Radius.circular(20),
                 )),
           height: 60,
-          child: Text("Swipe To Execute", style: TextStyle(color: Colors.white ,fontSize: 20,fontWeight: FontWeight.bold),),
+          child: Text("treatment", style: TextStyle(color: Colors.white ,fontSize: 20,fontWeight: FontWeight.bold),),
           /*iconColor: primaryColor,
           swipeButtonColor: Colors.white,
           backgroundColor: primaryColor,

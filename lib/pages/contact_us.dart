@@ -83,7 +83,7 @@ class ContactUs extends StatelessWidget {
                   color: Colors.orange,
                   splashColor: Colors.orange,
                   onPressed: () => Utils.openLink(
-                      url: 'https://github.com/Evil4eveR/RicoVineApp'),
+                      url: 'https://people.inf.elte.hu/nwyuk6'),
                 ),
               ),
               Padding(
@@ -96,8 +96,8 @@ class ContactUs extends StatelessWidget {
                   color: Colors.red,
                   splashColor: Colors.red,
                   onPressed: () => Utils.openEmail(
-                    toEmail: "example@gmail.com",
-                    subject: "Hello",
+                    toEmail: "ymarmoud@gmail.com",
+                    subject: "Rico Vine App",
                     body: "Write Your Email Message",
                   ),
                 ),
